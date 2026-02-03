@@ -1,3 +1,39 @@
+## Présentation du Projet : Infrastructure Data End-to-End
+
+### 🎯 Objectif
+Ce projet simule une **plateforme de données complète et industrialisée**, conçue pour traiter le cycle de vie de la donnée de A à Z : de l'ingestion brute à la restitution décisionnelle.
+
+Il démontre la capacité à :
+1.  **Architecturer** une infrastructure micro-services robuste.
+2.  **Sécuriser et router** les flux.
+3.  **Stocker et modéliser** les données.
+4.  **Valoriser la donnée** via des tableaux de bord interactifs.
+
+### 🛠️ Stack Technique & Rôles
+Le projet s'articule autour de 4 piliers complémentaires :
+
+*  **Orchestration & DevOps** : `Docker` & `Docker Compose` pour une infrastructure conteneurisée portable.
+*  **Routing & Sécurité** : `Nginx` configuré en Reverse Proxy et Load Balancer pour gérer le trafic entrant.
+*  **Stockage & Data Engineering** : `PostgreSQL` comme Data Warehouse transactionnel.
+*  **Business Intelligence (BI)** : `Metabase` connecté à la base de données pour la création de dashboards analytiques.
+
+---
+
+## 📊 Focus BI : Dashboard de Pilotage (Metabase)
+
+Une instance **Metabase** a été intégrée à la stack pour exploiter les données stockées dans PostgreSQL. Ce module permet de transformer les données brutes en indicateurs clés de performance (KPIs).
+
+### 📸 Aperçu du Dashboard
+*Le tableau de bord ci-dessous permet le suivi en temps réel des ventes, du chiffre d'affaires par région et de la performance des catégories produits.*
+
+![Dashboard Business Metabase](https://github.com/Hajaarh/end-to-end-data-platform/blob/main/dashboard_screenshot.png?raw=true)
+
+### 💡 Cas d'usage implémentés :
+* **Suivi CA & Marges** : Calcul dynamique du Chiffre d'Affaires total et du panier moyen.
+* **Analyse Temporelle** : Comparaison des ventes Année N vs Année N-1 (Year-over-Year).
+* **Répartition Géographique** : Performance commerciale par région.
+---
+
 # 🐳 Stack Docker - Nginx Reverse Proxy + Web Servers + PostgreSQL
 
 ## 📋 Architecture
