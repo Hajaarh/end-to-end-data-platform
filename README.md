@@ -37,7 +37,7 @@
         ═══════════════════════════════════════════════════════
 ```
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ### 1. Cloner et démarrer
 
@@ -265,5 +265,4 @@ Pour un déploiement en production, ajouter :
 
 ---
 
-**Auteur** : Généré pour le cours BI & Datavisualisation avancée  
-**Version** : 1.0
+**Auteur** : HAILAF Hajar

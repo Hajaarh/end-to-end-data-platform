@@ -1,0 +1,15 @@
+# Sécurité 
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Données 
+*.csv
+*.json
+!api_produits.json  
+# Docker & OS
+.DS_Store
