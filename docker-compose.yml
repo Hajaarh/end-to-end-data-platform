@@ -87,6 +87,19 @@ services:
       postgres:
         condition: service_healthy
 
+  # ===========================================
+  # SIMULATEUR - Génération de données live
+  # ===========================================
+  simulateur:
+    build: ./simulation
+    container_name: simulateur-live
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - backend
+    restart: unless-stopped
+
 # ===========================================
 # RÉSEAUX
 # ===========================================

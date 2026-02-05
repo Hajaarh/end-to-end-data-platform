@@ -13,3 +13,4 @@ venv/
 !api_produits.json  
 # Docker & OS
 .DS_Store
+Dockerfile
